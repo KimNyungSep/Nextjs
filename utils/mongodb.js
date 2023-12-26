@@ -2,7 +2,7 @@
 
 import { MongoClient } from 'mongodb';
 
-const uri = 'mongodb://0.tcp.ap.ngrok.io:10176/data';
+const uri = 'mongodb://0.tcp.ap.ngrok.io:17151/data';
 const dbName = 'data';
 
 let cachedClient = null;

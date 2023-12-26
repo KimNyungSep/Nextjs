@@ -2,8 +2,8 @@
 
 import { MongoClient } from 'mongodb';
 
-const uri = process.env.MONGODB_URI;
-const dbName = 'isi dengan nama database lu di mongo db';
+const uri = 'mongodb://0.tcp.ap.ngrok.io:10176/data';
+const dbName = 'data';
 
 let cachedClient = null;
 

@@ -3,7 +3,7 @@
 import { MongoClient } from 'mongodb';
 
 const uri = process.env.MONGODB_URI;
-const dbName = 'data';
+const dbName = 'isi dengan nama database lu di mongo db';
 
 let cachedClient = null;
 
